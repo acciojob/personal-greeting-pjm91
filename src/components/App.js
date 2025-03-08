@@ -14,7 +14,7 @@ const onClear = ()=>{
 
   return (
     <div>
-        {/* Do not remove the main div */}
+       
     <p>Enter Your Name</p>
     <input value={input} onChange={onInput} />
     {!!input.length&&<p>Hello {input}!</p>}
